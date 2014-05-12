@@ -128,7 +128,7 @@ PKGROOT = /var/tmp/heirloom-sh
 PKGTEMP = /var/tmp
 PKGPROTO = pkgproto
 
-heirloom-sh.pkg: all
+SSOSheirloom-sh.pkg: all
 	rm -rf $(PKGROOT)
 	mkdir -p $(PKGROOT)
 	$(MAKE) ROOT=$(PKGROOT) install
