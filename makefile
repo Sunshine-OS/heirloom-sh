@@ -96,8 +96,8 @@ install: all
 	$(UCBINST) -c -m 644 sh.1.out $(ROOT)$(MANDIR)/man1/sh.1
 	rm -f $(ROOT)$(MANDIR)/man1/jsh.1
 	cd $(ROOT)$(MANDIR)/man1 && $(LNS) sh.1 jsh.1
-	mkdir -p $(ROOT)/sbin
-	cp $(ROOT)$(SV3BIN)/sh $(ROOT)/sbin/
+	#mkdir -p $(ROOT)/sbin
+	#cp $(ROOT)$(SV3BIN)/sh $(ROOT)/sbin/
 
 maninstall: sh.1.out
 	$(UCBINST) -c -m 644 sh.1.out $(ROOT)$(MANDIR)/man1/sh.1
