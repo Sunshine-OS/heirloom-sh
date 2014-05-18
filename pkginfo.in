@@ -1,11 +1,11 @@
 # Sccsid @(#)pkginfo	1.2 (gritter) 2/24/07
-PKG=SSOSheirloom-sh
+PKG=SSOShlm-sh
 NAME=Heirloom Bourne Shell
 DESC=A derivative of the UNIX SVR4 Bourne Shell.
 VENDOR=Gunnar Ritter
 HOTLINE=http://heirloom.sourceforge.net
 EMAIL=gunnarr@acm.org
-VERSION=061225_%BUILD
+VERSION=061225.1_%BUILD
 ARCH=x86_64
 CATEGORY=system
 BASEDIR=/
